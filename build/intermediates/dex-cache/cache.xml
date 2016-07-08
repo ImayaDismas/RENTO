@@ -2,74 +2,74 @@
 <items version="2" >
 
     <item
-        jar="/home/mwongera/RENTO/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
-        <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_52747a7431869755bb06ada0320ed9bf9dd0eba3/classes.dex" />
-    </item>
-    <item
-        jar="/home/mwongera/RENTO/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_3439aba2378e62329ee3679bf5aa2875f9cd37ca/classes.dex" />
-    </item>
-    <item
-        jar="/home/mwongera/RENTO/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_c7c0dfdcf5bc0e7c08c3c31eed286984bf02a5f8/classes.dex" />
-    </item>
-    <item
-        jar="/home/mwongera/RENTO/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jar="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         revision="24.0.0"
         sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_05d758d436ca4be3a8c8d4b33db705e27329a8fe/classes.dex" />
+        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_414746192ac39fa774c619812faff6ae50bc1095/classes.dex" />
     </item>
     <item
-        jar="/home/mwongera/RENTO/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_66cb4cca537208252c888cdb1a3297b10ea80316/classes.dex" />
-    </item>
-    <item
-        jar="/home/mwongera/RENTO/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="f4c3c436f57b3caf33560b1b4272391ba4679ae0">
-        <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_573690b6afaffbd198beec22336a4af7f109807b/classes.dex" />
-    </item>
-    <item
-        jar="/home/mwongera/RENTO/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
-        <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_5da7f60da397e8efdac7bd164441f223a3a57bb0/classes.dex" />
-    </item>
-    <item
-        jar="/home/mwongera/RENTO/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="030f31b20404b77cc55992d5b1454f70c300dfde">
-        <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5278f046b2c76683096c832d37b6d59bf89560ca/classes.dex" />
-    </item>
-    <item
-        jar="/home/mwongera/RENTO/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_947c02e808b6295fc6d0555b64ce0d5d59601ad8/classes.dex" />
-    </item>
-    <item
-        jar="/home/mwongera/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jar="/home/imaya/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
         jumboMode="true"
         revision="24.0.0"
         sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_af90d40d3486dc68d2267a5932b899fd91e07291/classes.dex" />
+        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_4bad7a9388c77c1aec6b39ff932d6d39abf0d163/classes.dex" />
+    </item>
+    <item
+        jar="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_dcae9343753549fb02ce0de9d951eab69e4acef0/classes.dex" />
+    </item>
+    <item
+        jar="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="1d34dc3ab7ee60d9b48547396bbb3a2aa0c71a89">
+        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f386fd35e64c8c5f932da63323b596ded1cbc66a/classes.dex" />
+    </item>
+    <item
+        jar="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_d18403313628fa27ea6159206d5b48e4992833d6/classes.dex" />
+    </item>
+    <item
+        jar="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="de74e493ab39e1e450d34623268a2c7555236b02">
+        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bee5520ef81801d88a29d5df080dc4b2ae661943/classes.dex" />
+    </item>
+    <item
+        jar="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_9baba4906c0d30ee18bd1efa70377c4346de7024/classes.dex" />
+    </item>
+    <item
+        jar="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_d20f03e22241321d1a6116a7a7cf1f41a4dbc3e9/classes.dex" />
+    </item>
+    <item
+        jar="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_3e9612cb1452fadf45a14f4f4a02db6dfc7ddc52/classes.dex" />
+    </item>
+    <item
+        jar="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_a431aa4ad88561bd69b5a9cf7b784cdbe3a9c0bf/classes.dex" />
     </item>
 
 </items>
