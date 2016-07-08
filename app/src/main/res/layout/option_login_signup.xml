@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
-</LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:src="@drawable/two"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Real time and Anywhere."
+                android:id="@+id/textView2"
+                android:textColor="@color/color"
+                android:textSize="25sp"
+                android:layout_below="@+id/imageView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView2"
+                android:hint="Sign Up"
+                android:id="@+id/button"
+                android:layout_marginTop="75dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/roundshapebtn"
+                android:focusableInTouchMode="false"
+                android:textSize="35px"
+                android:width="420px"
+                android:textColorHint="#ffffff"
+                android:height="88px" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Log In"
+                android:id="@+id/button2"
+                android:layout_alignTop="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="87dp"
+                android:background="@drawable/roundshapebtn1"
+                android:textSize="35px"
+                android:width="420px"
+                android:textColorHint="#ffffff"
+                android:height="88px" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
