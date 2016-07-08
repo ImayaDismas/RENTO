@@ -23,7 +23,7 @@ public class SignupActivity extends AppCompatActivity {
 
         final Context context = this;
 
-        button = (Button) findViewById(R.id.button);
+        button = (Button) findViewById(R.id.btn_signup);
 
         button.setOnClickListener(new View.OnClickListener() {
 

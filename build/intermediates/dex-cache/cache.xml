@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="e0bc82c8405239b8595204e08199fb98604307c8">
-        <dex dex="/home/imaya/Documents/Projects/Collaborations/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bee5520ef81801d88a29d5df080dc4b2ae661943/classes.dex" />
-    </item>
-
-</items>
+<items version="2" />

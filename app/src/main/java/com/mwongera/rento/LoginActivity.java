@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
 
         final Context context = this;
 
-        button = (Button) findViewById(R.id.button);
+        button = (Button) findViewById(R.id.btn_login);
 
         button.setOnClickListener(new View.OnClickListener() {
 
