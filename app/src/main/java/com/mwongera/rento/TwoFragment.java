@@ -42,73 +42,73 @@ public class TwoFragment extends Fragment {
 
                 if(position == 0)
                 {
-                    Intent intent = new Intent(getActivity(), KCF.class);
+                    Intent intent = new Intent(getActivity(), KCFActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 1)
                 {
-                    Intent intent = new Intent(getActivity(), KBF.class);
+                    Intent intent = new Intent(getActivity(), KBFActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 2)
                 {
-                    Intent intent = new Intent(getActivity(), KBZ.class);
+                    Intent intent = new Intent(getActivity(), KBZActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 3)
                 {
-                    Intent intent = new Intent(getActivity(), KCE.class);
+                    Intent intent = new Intent(getActivity(), KCEActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 4)
                 {
-                    Intent intent = new Intent(getActivity(), KCB.class);
+                    Intent intent = new Intent(getActivity(), KCBActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 5)
                 {
-                    Intent intent = new Intent(getActivity(), KPB.class);
+                    Intent intent = new Intent(getActivity(), KBPActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 6)
                 {
-                    Intent intent = new Intent(getActivity(), KBC.class);
+                    Intent intent = new Intent(getActivity(), KBCActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 7)
                 {
-                    Intent intent = new Intent(getActivity(), KBZ.class);
+                    Intent intent = new Intent(getActivity(), KBZActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 8)
                 {
-                    Intent intent = new Intent(getActivity(), KBV.class);
+                    Intent intent = new Intent(getActivity(), KBUActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 9)
                 {
-                    Intent intent = new Intent(getActivity(), KBS.class);
+                    Intent intent = new Intent(getActivity(), KBSActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 10)
                 {
-                    Intent intent = new Intent(getActivity(), KBV1.class);
+                    Intent intent = new Intent(getActivity(), KBVActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 11)
                 {
-                    Intent intent = new Intent(getActivity(), KCH.class);
+                    Intent intent = new Intent(getActivity(), KCHActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
