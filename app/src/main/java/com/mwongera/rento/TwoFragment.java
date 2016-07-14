@@ -42,7 +42,7 @@ public class TwoFragment extends Fragment {
 
                 if(position == 0)
                 {
-                    Intent intent = new Intent(getActivity(), KCFActivity.class);
+                    Intent intent = new Intent(getActivity(), KBCActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
@@ -54,31 +54,31 @@ public class TwoFragment extends Fragment {
                 }
                 else if(position == 2)
                 {
-                    Intent intent = new Intent(getActivity(), KBZActivity.class);
+                    Intent intent = new Intent(getActivity(), KBPActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 3)
                 {
-                    Intent intent = new Intent(getActivity(), KCEActivity.class);
+                    Intent intent = new Intent(getActivity(), KBSActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 4)
                 {
-                    Intent intent = new Intent(getActivity(), KCBActivity.class);
+                    Intent intent = new Intent(getActivity(), KBUActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 5)
                 {
-                    Intent intent = new Intent(getActivity(), KBPActivity.class);
+                    Intent intent = new Intent(getActivity(), KBVActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 6)
                 {
-                    Intent intent = new Intent(getActivity(), KBCActivity.class);
+                    Intent intent = new Intent(getActivity(), KBWActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
@@ -90,19 +90,19 @@ public class TwoFragment extends Fragment {
                 }
                 else if(position == 8)
                 {
-                    Intent intent = new Intent(getActivity(), KBUActivity.class);
+                    Intent intent = new Intent(getActivity(), KCBActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 9)
                 {
-                    Intent intent = new Intent(getActivity(), KBSActivity.class);
+                    Intent intent = new Intent(getActivity(), KCEActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
                 else if(position == 10)
                 {
-                    Intent intent = new Intent(getActivity(), KBVActivity.class);
+                    Intent intent = new Intent(getActivity(), KCFActivity.class);
                     intent.putExtra(DetailActivity.EXTRA_PARAM_ID, position);
                     startActivity(intent);
                 }
