@@ -3,7 +3,7 @@
   ~ Copyright (c) 2016. Ted Park. All Rights Reserved
   -->
 
-<com.gun0912.tedpicker.view.CustomSquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.mwongera.rento.view.CustomSquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                                     xmlns:app="http://schemas.android.com/apk/res-auto"
                                                     android:id="@+id/root"
                                                     android:layout_width="match_parent"
@@ -15,7 +15,7 @@
 
     >
 
-    <com.gun0912.tedpicker.view.CustomSquareImageView
+    <com.mwongera.rento.view.CustomSquareImageView
         android:id="@+id/thumbnail_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,4 +24,4 @@
         />
 
 
-</com.gun0912.tedpicker.view.CustomSquareFrameLayout>
+</com.mwongera.rento.view.CustomSquareFrameLayout>
