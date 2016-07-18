@@ -29,5 +29,57 @@
         android:src="@drawable/profile"
         />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_cover_image"
+        android:background="#ebca0707"
+        android:elevation="4dp"
+        android:paddingBottom="24dp"
+        >
+
+        <ImageView
+            android:id="@+id/add_friend"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_toLeftOf="@+id/drop_down_option_menu"
+            android:src="@drawable/ic_action_user_add"
+            />
+        <ImageView
+            android:id="@+id/drop_down_option_menu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_action_overflow"
+            />
+        <TextView
+            android:id="@+id/user_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="76dp"
+            android:text="Rento"
+            android:textColor="#fff"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/user_profile_short_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_profile_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="Renting cars made easy"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            />
+        
+    </RelativeLayout>
+
 </RelativeLayout>
 </ScrollView>
