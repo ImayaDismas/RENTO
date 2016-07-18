@@ -72,8 +72,8 @@
       <file leaf-file-name="fragment_four.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_four.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94186044">
-              <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.6802326">
+              <caret line="142" column="14" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -2205,7 +2205,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468873174331</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="textview profile name and bio">
+      <created>1468874494766</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1468874494766</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2258,7 +2264,8 @@
     <MESSAGE value="scrollview- profile" />
     <MESSAGE value="header image&#10;" />
     <MESSAGE value="profile imagebutton" />
-    <option name="LAST_COMMIT_MESSAGE" value="profile imagebutton" />
+    <MESSAGE value="textview profile name and bio" />
+    <option name="LAST_COMMIT_MESSAGE" value="textview profile name and bio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2338,8 +2345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_four.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94186044">
-          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.6802326">
+          <caret line="142" column="14" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
           <folding />
         </state>
       </provider>
