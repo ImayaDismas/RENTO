@@ -10,5 +10,6 @@
     <color name="color">#447283</color>
     <color name="primary">#FD8701</color>
     <color name="white">#FFFFFF</color>
+    <color name="primary_dark">#447283</color>
     <color name="colorButton">#0277bd</color>
 </resources>
