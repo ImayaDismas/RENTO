@@ -74,7 +74,7 @@
             android:text="update profile"
             android:textSize="14sp"
             android:clickable="true"
-            android:layout_marginTop="18dp"
+            android:layout_marginTop="38dp"
             android:fontFamily="sans-serif-smallcaps"/>
 
     </RelativeLayout>
