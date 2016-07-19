@@ -56,6 +56,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".ImagePickerActivity"
+            android:screenOrientation="portrait"
+            />
     </application>
 
 </manifest>
