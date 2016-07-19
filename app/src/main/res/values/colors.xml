@@ -10,5 +10,9 @@
     <color name="color">#447283</color>
     <color name="primary">#FD8701</color>
     <color name="white">#FFFFFF</color>
+<<<<<<< HEAD
     <color name="primary_dark">#447283</color>
+=======
+    <color name="colorButton">#0277bd</color>
+>>>>>>> 5eda965b05255118d539bf493ae67d3c8216c970
 </resources>

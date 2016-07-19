@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.mikhaellopez.circularimageview.CircularImageView;
+
 /**
  * Created by mwongera on 01/07/16.
  */
