@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by imaya on 7/19/16.
  */
 public class PlaceData {
-    public static String[] placeNameArray = {"KCF 3969E", "KBF 622R", "KBZ 010K", "KCE 069F", "KCB 312G", "KBP 295T", "KBC 005G", "KBZ 110E", "KBV 921S", "KBS 101V", "KBV 121K", "KCH 001M"};
+    public static String[] placeNameArray = {"KBC_005G", "KBF_622R", "KBP_295T", "KBS_101V", "KBU_921S", "KBV_121K", "KBW_010K", "KBZ_110E", "KCB_312G", "KCE_069F", "KCF_396E", "KCH_001M"};
 
     public static ArrayList<Place> placeList() {
         ArrayList<Place> list = new ArrayList<>();
