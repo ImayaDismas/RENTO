@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Rento</string>
+    <string name="Owner_Details">Owner Details</string>
+    <string name="Car_Details">Car Details</string>
 </resources>
