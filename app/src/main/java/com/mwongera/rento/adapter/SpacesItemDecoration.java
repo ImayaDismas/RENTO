@@ -4,11 +4,6 @@ import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-/**
- * Created by TedPark on 15. 11. 24..
- */
-
-
 public class SpacesItemDecoration extends RecyclerView.ItemDecoration {
     public static final int TYPE_VERTICAL = 0;
     public static final int TYPE_HORIZONTAL = 1;
