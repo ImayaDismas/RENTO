@@ -4,7 +4,13 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -28,7 +34,9 @@ import java.util.ArrayList;
 /**
  * Created by mwongera on 20/07/16.
  */
-public class ImagePickerActivity extends AppCompatActivity implements CameraHostProvider {
+public class
+
+ImagePickerActivity extends AppCompatActivity implements CameraHostProvider {
 
     /**
      * Returns the parcelled image uris in the intent with this extra.
