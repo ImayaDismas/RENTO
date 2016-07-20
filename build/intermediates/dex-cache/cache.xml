@@ -61,7 +61,7 @@
         jar="/home/mwongera/RENTO/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="c5fe7e921006e78de9bdb1ee15a837261ea0ccb4">
+        sha1="512d5394c0d2435041b2f6643332c8a1cf4ee5e0">
         <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5278f046b2c76683096c832d37b6d59bf89560ca/classes.dex" />
     </item>
     <item
@@ -117,7 +117,7 @@
         jar="/home/mwongera/RENTO/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="888e37796a701a831b78ccc15d44caee45dda543">
+        sha1="5f5a553290e4f7e3041bba8ef5676e84cb46be5d">
         <dex dex="/home/mwongera/RENTO/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_573690b6afaffbd198beec22336a4af7f109807b/classes.dex" />
     </item>
     <item
