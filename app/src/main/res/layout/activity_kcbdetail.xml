@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAlignment="center"
+        android:fillViewport="false"
+        android:layout_alignParentEnd="false">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/placeImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:scaleType="centerCrop"
+                    android:transitionName="tImage" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/placeNameHolder"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:transitionName="tNameHolder">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+            <android.support.v7.widget.CardView
+                xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                cardview:cardCornerRadius="5dp"
+                cardview:cardBackgroundColor="#FFFFFF"
+                cardview:cardElevation="5dp">
+                <RelativeLayout
+                    android:id="@+id/TextHolder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Owner"
+                        android:id="@+id/textView5"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Daniel Mutwiri"
+                        android:id="@+id/textView3"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:singleLine="false"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="false" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                cardview:cardCornerRadius="5dp"
+                cardview:cardBackgroundColor="#FFFFFF"
+                cardview:cardElevation="5dp">
+                <RelativeLayout
+                    android:id="@+id/TextHold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Rate"
+                        android:id="@+id/textView17"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Ksh. 4000/day"
+                        android:id="@+id/textView18"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:singleLine="false"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="false" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                cardview:cardCornerRadius="5dp"
+                cardview:cardBackgroundColor="#FFFFFF"
+                cardview:cardElevation="5dp">
+                <RelativeLayout
+                    android:id="@+id/TextHolder1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Year"
+                        android:id="@+id/textView4"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="2015"
+                        android:id="@+id/textView6"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:singleLine="false"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="false" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                cardview:cardCornerRadius="5dp"
+                cardview:cardBackgroundColor="#FFFFFF"
+                cardview:cardElevation="5dp">
+                <RelativeLayout
+                    android:id="@+id/TextHolder2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Mileage"
+                        android:id="@+id/textView7"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="0-15000km"
+                        android:id="@+id/textView8"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:singleLine="false"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="false" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                cardview:cardCornerRadius="5dp"
+                cardview:cardBackgroundColor="#FFFFFF"
+                cardview:cardElevation="5dp">
+                <RelativeLayout
+                    android:id="@+id/TextHolder3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Energy"
+                        android:id="@+id/textView9"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Diesel"
+                        android:id="@+id/textView10"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:singleLine="false"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="false" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                cardview:cardCornerRadius="5dp"
+                cardview:cardBackgroundColor="#FFFFFF"
+                cardview:cardElevation="5dp">
+                <RelativeLayout
+                    android:id="@+id/TextHolder5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Seats"
+                        android:id="@+id/textView11"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="4 seats"
+                        android:id="@+id/textView12"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:singleLine="false"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="false" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                cardview:cardCornerRadius="5dp"
+                cardview:cardBackgroundColor="#FFFFFF"
+                cardview:cardElevation="5dp">
+                <RelativeLayout
+                    android:id="@+id/TextHolder6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Consuption"
+                        android:id="@+id/textView15"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:textAlignment="center"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="5L/100km"
+                        android:id="@+id/textView16"
+                        android:layout_centerHorizontal="false"
+                        android:textSize="20dp"
+                        android:paddingTop="7dp"
+                        android:singleLine="false"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="false" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Rent Now"
+                android:id="@+id/button"
+                android:layout_marginTop="7dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/roundshapebtn"
+                android:focusableInTouchMode="false"
+                android:textSize="35px"
+                android:width="420px"
+                android:textColorHint="#ffffff"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
