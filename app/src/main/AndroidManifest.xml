@@ -56,6 +56,90 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".KBCActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KBFActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KBPActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KBSActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KBUActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KBVActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KBWActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KBZActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KCBActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KCEActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KCFActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KCHActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN06" />

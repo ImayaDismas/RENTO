@@ -2,6 +2,10 @@
     <string name="app_name">Rento</string>
     <string name="Owner_Details">Owner Details</string>
     <string name="Car_Details">Car Details</string>
+    <string name="put_it_to_use"><i><b>Put it to use</b></i></string>
+    <string name="kbcdetail">Owner is Dismas Imaya</string>
+    <string name="kbc">KCB 00000</string>
+
     <string name="progress_title">Processing..</string>
 
     <string name="done">Done</string>
@@ -27,4 +31,5 @@
 
     <string name="default_directory">Pictures</string>
 
+>>>>>>> cbdf1722159cc6eed32a7a7036f95893f0eb9344
 </resources>
