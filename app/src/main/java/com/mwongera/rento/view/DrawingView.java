@@ -12,8 +12,8 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 
-import com.gun0912.tedpicker.R;
-import com.gun0912.tedpicker.util.Util;
+import com.mwongera.rento.R;
+import com.mwongera.rento.util.Util;
 
 
 /**
