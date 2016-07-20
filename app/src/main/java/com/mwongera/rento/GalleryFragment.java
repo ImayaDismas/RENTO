@@ -17,8 +17,8 @@ import android.widget.GridView;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.gun0912.tedpicker.*;
-import com.gun0912.tedpicker.view.CustomSquareFrameLayout;
+import com.mwongera.rento.*;
+import com.mwongera.rento.view.CustomSquareFrameLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,14 +29,14 @@ import java.util.List;
 public class GalleryFragment extends Fragment {
 
     public static ImageGalleryAdapter mGalleryAdapter;
-    public static com.gun0912.tedpicker.ImagePickerActivity mActivity;
+    public static com.mwongera.rento.ImagePickerActivity mActivity;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.picker_fragment_gallery, container, false);
         GridView galleryGridView = (GridView) rootView.findViewById(R.id.gallery_grid);
-        mActivity = ((com.gun0912.tedpicker.ImagePickerActivity) getActivity());
+        mActivity = ((com.mwongera.rento.ImagePickerActivity) getActivity());
 
 
         List<Uri> images = getImagesFromGallary(getActivity());

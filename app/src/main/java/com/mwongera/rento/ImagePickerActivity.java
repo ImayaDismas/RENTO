@@ -20,14 +20,15 @@ import android.view.ViewTreeObserver;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.commonsware.cwac.camera.CameraHost;
 import com.commonsware.cwac.camera.CameraHostProvider;
-import com.gun0912.tedpicker.Adapter_SelectedPhoto;
-import com.gun0912.tedpicker.Config;
-import com.gun0912.tedpicker.CwacCameraFragment;
-import com.gun0912.tedpicker.GalleryFragment;
-import com.gun0912.tedpicker.PagerAdapter_Picker;
-import com.gun0912.tedpicker.custom.adapter.SpacesItemDecoration;
-import com.gun0912.tedpicker.util.Util;
+import com.mwongera.rento.Adapter_SelectedPhoto;
+import com.mwongera.rento.Config;
+import com.mwongera.rento.CwacCameraFragment;
+import com.mwongera.rento.GalleryFragment;
+import com.mwongera.rento.PagerAdapter_Picker;
+import com.mwongera.rento.adapter.SpacesItemDecoration;
+import com.mwongera.rento.util.Util;
 
 import java.util.ArrayList;
 
@@ -42,7 +43,7 @@ ImagePickerActivity extends AppCompatActivity implements CameraHostProvider {
      * Returns the parcelled image uris in the intent with this extra.
      */
     public static final String EXTRA_IMAGE_URIS = "image_uris";
-    public static CwacCameraFragment.MyCameraHost mMyCameraHost;
+    public static com.mwongera.rento.CwacCameraFragment.MyCameraHost mMyCameraHost;
     // initialize with default config.
     private static Config mConfig = new Config();
     /**

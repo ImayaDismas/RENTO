@@ -13,8 +13,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.gun0912.tedpicker.Config;
-import com.gun0912.tedpicker.ImagePickerActivity;
+import com.mwongera.rento.Config;
+import com.mwongera.rento.ImagePickerActivity;
 
 import java.util.ArrayList;
 
@@ -23,6 +23,7 @@ import java.util.ArrayList;
  */
 public class MainActivity1 extends AppCompatActivity {
 
+    private static final int INTENT_REQUEST_GET_IMAGES = 13;
     private static final String TAG = "RENTO";
     ArrayList<Uri> image_uris = new ArrayList<Uri>();
     private ViewGroup mSelectedImagesContainer;
@@ -43,6 +44,7 @@ public class MainActivity1 extends AppCompatActivity {
                 getImages(new Config());
             }
         });
+    }
 
     private void getImages(Config config) {
 

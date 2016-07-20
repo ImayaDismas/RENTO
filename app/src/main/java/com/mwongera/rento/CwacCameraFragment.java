@@ -35,12 +35,15 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.widget.ImageButton;
 
+import com.commonsware.cwac.camera.CameraUtils;
 import com.commonsware.cwac.camera.CameraView;
-import com.gun0912.tedpicker.*;
-import com.gun0912.tedpicker.GalleryFragment;
-import com.gun0912.tedpicker.util.BitmapUtil;
-import com.gun0912.tedpicker.util.Util;
-import com.gun0912.tedpicker.view.DrawingView;
+import com.commonsware.cwac.camera.PictureTransaction;
+import com.commonsware.cwac.camera.SimpleCameraHost;
+import com.mwongera.rento.*;
+import com.mwongera.rento.GalleryFragment;
+import com.mwongera.rento.util.BitmapUtil;
+import com.mwongera.rento.util.Util;
+import com.mwongera.rento.view.DrawingView;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -80,7 +83,7 @@ public class CwacCameraFragment extends Fragment implements View.OnClickListener
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        com.gun0912.tedpicker.ImagePickerActivity.mMyCameraHost = new MyCameraHost(getActivity());
+        com.mwongera.rento.ImagePickerActivity.mMyCameraHost = new MyCameraHost(getActivity());
 
 
         mProgressDialog = new ProgressDialog(getActivity());
@@ -379,7 +382,7 @@ public class CwacCameraFragment extends Fragment implements View.OnClickListener
 
     public void showTakenPicture(Uri uri) {
 
-        com.gun0912.tedpicker.ImagePickerActivity mImagePickerActivity = ((com.gun0912.tedpicker.ImagePickerActivity) getActivity());
+        com.mwongera.rento.ImagePickerActivity mImagePickerActivity = ((com.mwongera.rento.ImagePickerActivity) getActivity());
 
         mImagePickerActivity.addImage(uri);
 

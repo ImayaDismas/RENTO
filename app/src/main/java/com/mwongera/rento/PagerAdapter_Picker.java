@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.gun0912.tedpicker.*;
+import com.mwongera.rento.*;
 
 /**
  * Created by mwongera on 20/07/16.
@@ -38,7 +38,7 @@ public class PagerAdapter_Picker extends FragmentPagerAdapter {
         switch (position) {
             case 0:
                 CwacCameraFragment profileInfoFragment = new CwacCameraFragment();
-                CwacCameraFragment.setConfig(com.gun0912.tedpicker.ImagePickerActivity.getConfig());
+                CwacCameraFragment.setConfig(com.mwongera.rento.ImagePickerActivity.getConfig());
                 return profileInfoFragment;
 
 
