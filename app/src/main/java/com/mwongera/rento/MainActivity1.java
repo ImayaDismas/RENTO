@@ -30,7 +30,7 @@ public class MainActivity1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.listcar);
 
 
         mSelectedImagesContainer = (ViewGroup) findViewById(R.id.selected_photos_container);
