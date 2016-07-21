@@ -147,6 +147,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Listcar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN07" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ImagePickerActivity"
             android:screenOrientation="portrait"
             />
